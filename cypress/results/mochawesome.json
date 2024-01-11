@@ -1,0 +1,182 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-01-11T17:31:49.548Z",
+    "end": "2024-01-11T17:32:12.066Z",
+    "duration": 22518,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "07a278e0-b958-4a97-97a0-bd6611adc0c4",
+      "title": "",
+      "fullFile": "cypress/e2e/features/yukatech/yukatech.feature",
+      "file": "cypress/e2e/features/yukatech/yukatech.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5e8e61af-b20a-414e-a357-8e6d32314e9f",
+          "title": "Test Timer Funcionalities Working as expected",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "User can start the timer",
+              "fullTitle": "Test Timer Funcionalities Working as expected User can start the timer",
+              "timedOut": null,
+              "duration": 3437,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "337cb058-25e6-44bf-ac40-1e839da10fdb",
+              "parentUUID": "5e8e61af-b20a-414e-a357-8e6d32314e9f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User use stop button",
+              "fullTitle": "Test Timer Funcionalities Working as expected User use stop button",
+              "timedOut": null,
+              "duration": 3203,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "c15720d5-2772-47e4-9f88-0f7b1ae9b726",
+              "parentUUID": "5e8e61af-b20a-414e-a357-8e6d32314e9f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User use reset button",
+              "fullTitle": "Test Timer Funcionalities Working as expected User use reset button",
+              "timedOut": null,
+              "duration": 3197,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "fbf8b4c2-7c53-4517-a265-fbe8455bcf28",
+              "parentUUID": "5e8e61af-b20a-414e-a357-8e6d32314e9f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User click many times start button",
+              "fullTitle": "Test Timer Funcionalities Working as expected User click many times start button",
+              "timedOut": null,
+              "duration": 6280,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "96b6302c-85d8-487b-b028-e679379d58c4",
+              "parentUUID": "5e8e61af-b20a-414e-a357-8e6d32314e9f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User click many times stop button",
+              "fullTitle": "Test Timer Funcionalities Working as expected User click many times stop button",
+              "timedOut": null,
+              "duration": 6280,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "f9e8c770-4439-46ad-b2a2-745afd3e0a04",
+              "parentUUID": "5e8e61af-b20a-414e-a357-8e6d32314e9f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "337cb058-25e6-44bf-ac40-1e839da10fdb",
+            "c15720d5-2772-47e4-9f88-0f7b1ae9b726",
+            "fbf8b4c2-7c53-4517-a265-fbe8455bcf28",
+            "96b6302c-85d8-487b-b028-e679379d58c4",
+            "f9e8c770-4439-46ad-b2a2-745afd3e0a04"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 22397,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": true,
+        "html": true,
+        "json": true,
+        "code": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}
